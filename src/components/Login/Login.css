@@ -1,0 +1,75 @@
+/* General form styling */
+.login-form {
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+  width: 320px;
+  margin: auto;
+  padding: 30px;
+  text-align: center;
+  font-family: "Arial", sans-serif;
+}
+
+/* Form header */
+.login-form h2 {
+  margin-bottom: 20px;
+  font-size: 24px;
+  color: #333;
+}
+
+/* Input group styling */
+.input-group {
+  margin-bottom: 20px;
+  position: relative;
+}
+
+/* Input fields */
+.login-form input {
+  width: 80%;
+  padding: 12px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  font-size: 16px;
+  background-color: #fff;
+  transition: all 0.3s ease-in-out;
+}
+
+/* Input field focus state */
+.login-form input:focus {
+  border-color: #007bff;
+  box-shadow: 0px 0px 5px rgba(0, 123, 255, 0.5);
+  outline: none;
+}
+
+/* Placeholder text styling */
+.login-form input::placeholder {
+  color: #888;
+  font-style: italic;
+}
+
+/* Submit button */
+.login-button {
+  background-color: #007bff;
+  border: none;
+  border-radius: 6px;
+  color: #fff;
+  font-size: 18px;
+  padding: 12px;
+  cursor: pointer;
+  width: 100%;
+  transition: background-color 0.3s ease-in-out;
+}
+
+/* Submit button hover state */
+.login-button:hover {
+  background-color: #0056b3;
+}
+
+/* Additional small effects */
+.login-form input:hover {
+  border-color: #ccc;
+}
+
+.login-form input:focus::placeholder {
+  color: transparent;
+}

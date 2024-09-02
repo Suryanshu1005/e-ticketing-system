@@ -1,0 +1,107 @@
+.event-details-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  margin: 0 auto;
+  max-width: 800px;
+  background: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.event-info {
+  text-align: center;
+}
+
+.event-title {
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.event-date-time {
+  font-size: 20px;
+  color: #555;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.event-venue,
+.event-seats {
+  font-size: 18px;
+  color: #777;
+  margin-bottom: 10px;
+}
+
+.book-ticket-container {
+  margin-top: 20px;
+}
+
+.book-ticket-button {
+  text-decoration: none;
+  color: #fff;
+  background: #007bff;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 5px;
+  font-size: 1rem;
+  font-weight: bold;
+  transition: background 0.3s ease;
+}
+
+.book-ticket-button:hover {
+  background: #0056b3;
+}
+
+.loading-message {
+  text-align: center;
+  font-size: 1.2rem;
+  color: #555;
+}
+
+.book-ticket-button a {
+  color: #ffffff;
+  text-decoration: none #6b7280 solid;
+}
+
+/* CSS */
+.book-ticket-button {
+  width: 100%;
+  margin-top: 10px;
+  background-color: #111827;
+  border: 1px solid transparent;
+  border-radius: 0.75rem;
+  box-sizing: border-box;
+  color: #ffffff;
+  cursor: pointer;
+  /* flex: 0 0 auto; */
+  font-family: "Inter var", ui-sans-serif, system-ui, -apple-system, system-ui,
+    "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif,
+    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-size: 1.125rem;
+  font-weight: 600;
+  line-height: 1.5rem;
+  padding: 0.75rem 1.2rem;
+  text-align: center;
+  text-decoration: none #6b7280 solid;
+  text-decoration-thickness: auto;
+  transition-duration: 0.2s;
+  transition-property: background-color, border-color, color, fill, stroke;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  /* width: auto; */
+}
+
+.book-ticket-button:hover {
+  background-color: #374151;
+}
+
+.book-ticket-button:focus {
+  box-shadow: none;
+  outline: 2px solid transparent;
+  outline-offset: 2px;
+}
